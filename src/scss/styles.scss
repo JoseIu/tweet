@@ -17,6 +17,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    column-gap: .3em;
     &__icon{
         // background-color: bisque;
         width: 1em;
@@ -40,6 +41,7 @@ body{
     }
     &__form{
         width: 100%;
+        margin-bottom: 2em;
         // background-color: antiquewhite;
     }
     &__label{
@@ -62,6 +64,13 @@ body{
         margin-right: auto;
         cursor: pointer;
         border: 1px solid #fff;
+    }
+    &__error{
+        font-size: 2em;
+        color: rgba(252, 104, 78, 0.651);
+        text-align: center;
+        display: block;
+        // background-color: antiquewhite;
     }
     &__left{
         // background-color: lightgrey;

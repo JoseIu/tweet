@@ -16,6 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  column-gap: 0.3em;
 }
 .title__icon {
   width: 1em;
@@ -37,6 +38,7 @@ body {
 }
 .hero__form {
   width: 100%;
+  margin-bottom: 2em;
 }
 .hero__label {
   font-size: 1.5em;
@@ -55,6 +57,12 @@ body {
   margin-right: auto;
   cursor: pointer;
   border: 1px solid #fff;
+}
+.hero__error {
+  font-size: 2em;
+  color: rgba(252, 104, 78, 0.651);
+  text-align: center;
+  display: block;
 }
 @media screen and (min-width: 768px) {
   .hero__left {

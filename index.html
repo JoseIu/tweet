@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Sono:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/reset.css">
     <link rel="stylesheet" href="dist/css/styles.css">
+    <script defer src="dist/app.js"></script>
     <title>Tweets</title>
 </head>
 <body>
@@ -23,12 +24,13 @@
 
 
         <section class="hero warpper">
-            <div class="hero__right">
+            <div class="hero__right" id="hero-right">
                 <form class="hero__form" id="formulario">
                     <label  class="hero__label" for="tweet">Tweet</label>
                     <textarea class="hero__textarea" name="" id="tweet" cols="30" rows="10"></textarea>
-                    <input class="hero__input" type="submit">
+                    <input class="hero__input" type="submit" value="Agregar">
                 </form>
+                <!-- <span class="hero__error">el tweet no debe ir vacio...</span> -->
             </div>
             <div class="hero__left">
                 <h2 class="hero__title">Mis tweets</h2>
